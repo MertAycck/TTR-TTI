@@ -1,3 +1,5 @@
+package op220_gui;
+
 public class Metric{
 
     public static double convertFT_M(double altitude) { return altitude * 0.3048; }

@@ -1,3 +1,5 @@
+package op220_gui;
+
 public class Coordinates {
     private double latitude;
     private double longitude;
@@ -5,6 +7,11 @@ public class Coordinates {
     public Coordinates(Double latitude, Double longitude){
         this.latitude = latitude;
         this.longitude = longitude;
+    }
+
+    public Coordinates(Double[] coordinates){
+        this.latitude = coordinates[0];
+        this.longitude = coordinates[1];
     }
 
     public Coordinates(String coordinate){
